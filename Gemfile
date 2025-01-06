@@ -10,6 +10,8 @@ gem "puma", ">= 5.0"
 # gem "jbuilder"
 # To use .env files for environment variables
 gem "dotenv-rails"
+# FactoryBot to create test data
+gem "factory_bot", "~> 6.5"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"

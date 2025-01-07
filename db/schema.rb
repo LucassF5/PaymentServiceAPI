@@ -16,7 +16,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_07_083406) do
 
   create_table "payments", force: :cascade do |t|
     t.string "name"
-    t.integer "card_number"
+    t.bigint "card_number"
     t.string "valid_date"
     t.integer "security_code"
     t.decimal "amount", precision: 10, scale: 2

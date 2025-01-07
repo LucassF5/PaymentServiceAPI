@@ -67,4 +67,8 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+
+  config.include FactoryBot::Syntax::Methods
+  Dir[Rails.root.join('spec/factories/**/*.rb')].each { |f| require f }
+
 end

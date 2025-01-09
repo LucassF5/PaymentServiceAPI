@@ -52,3 +52,5 @@ group :development, :test do
   # Use RSpec for unit tests [https://rspec.info/]
   gem "rspec-rails", "~> 7.1.0"
 end
+
+gem "mercadopago-sdk", "~> 2.2"
